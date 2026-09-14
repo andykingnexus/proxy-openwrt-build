@@ -9,10 +9,6 @@ on:
         default: "testing-ebpf-tc-rewrite"
         type: string
 
-  schedule:
-    # 每 4 小时检查一次
-    - cron: "17 */4 * * *"
-
 permissions:
   contents: write
 
